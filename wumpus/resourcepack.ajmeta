@@ -1,0 +1,18 @@
+{
+    "version": "0.4.6",
+    "projects": {
+        "7c9ddc90-c2a3-792a-9807-f7f111a8ab3d": {
+            "project_name": "wumpus",
+            "file_list": [
+                "assets\\animated_java\\models\\item\\wumpus\\head.json",
+                "assets\\animated_java\\models\\item\\wumpus\\body.json",
+                "assets\\animated_java\\models\\item\\wumpus\\arm_left.json",
+                "assets\\animated_java\\models\\item\\wumpus\\arm_right.json",
+                "assets\\animated_java\\models\\item\\wumpus\\leg_left.json",
+                "assets\\animated_java\\models\\item\\wumpus\\leg_right.json",
+                "assets\\animated_java\\textures\\item\\wumpus\\wumpus.png",
+                "assets\\minecraft\\models\\item\\animated_java_empty.json"
+            ]
+        }
+    }
+}

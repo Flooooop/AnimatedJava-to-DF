@@ -1,0 +1,64 @@
+{
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "minecraft:item/light_blue_candle"
+	},
+	"overrides": [
+		{
+			"predicate": {
+				"custom_model_data": 1
+			},
+			"model": "item/animated_java_empty"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 2
+			},
+			"model": "animated_java:item/wumpus/head"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 3
+			},
+			"model": "animated_java:item/wumpus/body"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 4
+			},
+			"model": "animated_java:item/wumpus/arm_left"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 5
+			},
+			"model": "animated_java:item/wumpus/arm_right"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 6
+			},
+			"model": "animated_java:item/wumpus/leg_left"
+		},
+		{
+			"predicate": {
+				"custom_model_data": 7
+			},
+			"model": "animated_java:item/wumpus/leg_right"
+		}
+	],
+	"animated_java": {
+		"rigs": {
+			"wumpus": {
+				"used_ids": [
+					2,
+					3,
+					4,
+					5,
+					6,
+					7
+				]
+			}
+		}
+	}
+}
